@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.maxx_header_hero {
+  background-image: url(./img/hero-img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.maxx_header {
+  display: flex;
+  justify-content: center;
+  padding: 10px 25px;
+  background-color: #0018c0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.maxx_header-logo {
+  text-decoration: none;
+}
+
+.maxx_header-img {
+  height: 50px;
+}
